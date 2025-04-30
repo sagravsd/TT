@@ -119,20 +119,24 @@ The defensive strategy combines the C++ script  and the Sysmon configuration fil
 ------------------------------
 Notes
 ------------------------------
-- The following Windows APIs are included in this C++ script:
+The following Windows APIs are included in this C++ script:
 
-Privileges and Elevation: AllocateAndInitializeSid, CheckTokenMembership, ShellExecuteEx.
-Process Management: CreateToolhelp32Snapshot, Process32First, Process32Next, TerminateProcess.
-Service Management: OpenSCManager, EnumServicesStatusEx, CloseServiceHandle.
-Memory Management: malloc, free, CloseHandle.
-Error Handling: GetLastError.
+- Privileges and Elevation: AllocateAndInitializeSid, CheckTokenMembership, ShellExecuteEx.
+- Process Management: CreateToolhelp32Snapshot, Process32First, Process32Next, TerminateProcess.
+- Service Management: OpenSCManager, EnumServicesStatusEx, CloseServiceHandle.
+- Memory Management: malloc, free, CloseHandle.
+- Error Handling: GetLastError.
 
-It also uses native Windows APIs such as: ToolHelp32Snapshot, OpenProcess,
-TerminateProcess, and CreateFile.
+It also uses native Windows APIs such as: 
+- ToolHelp32Snapshot
+- OpenProcess
+- TerminateProcess
+- CreateFile.
 
-- Some features may require admin privileges, especially killing system-level processes. This script has this built in.
+Some features may require admin privileges, especially killing system-level processes. This script has this built in.
+
 ------------------------------
-Contact: 
+Contact
 ------------------------------
 Contributions and suggestions welcome!
 
