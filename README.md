@@ -144,5 +144,3 @@ Contributions and suggestions welcome!
 Show Your Support
 ------------------------------
 If you find this useful, please ⭐️ the repository on GitHub and share it with others in the cybersecurity community!
-
-# TT
