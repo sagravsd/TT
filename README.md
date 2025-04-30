@@ -93,7 +93,7 @@ This tool was used primarily testing Notepad. Below are some examples:
 
 After running the tool, check the Event Viewer to the Events recorded as per the sysmon config file.
 Defensive Strategy for System Monitoring
-------------------------------
+
 The defensive strategy combines the C++ script  and the Sysmon configuration file to monitor, detect, and respond to suspicious system activities effectively as follows:
 
 1. C++ Script:
@@ -112,6 +112,7 @@ The defensive strategy combines the C++ script  and the Sysmon configuration fil
 4. Response Plan:
    - Automate process termination for flagged activities.
    - Collect forensic data before killing processes to ensure evidence for analysis.
+
 ------------------------------
 5. Notes
 ------------------------------
@@ -128,8 +129,7 @@ TerminateProcess, and CreateFile.
 
 - Some features may require admin privileges, especially killing system-level processes. This script has this built in.
 ------------------------------
-6. Contact
-   Contributions and suggestions welcome!
+6. Contact: Contributions and suggestions welcome!
 ------------------------------
 7. Show Your Support
    If you find this useful, please ⭐️ the repository on GitHub and share it with others in the cybersecurity community!
