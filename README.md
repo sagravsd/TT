@@ -3,7 +3,6 @@ README
 Sysmon, Tasklist, Taskkill Emulator in C++
 TT.exe (T for Tasklist and T for Taskkill)
 ==============================
-Silvia Vargas
 March 27, 2025
 ------------------------------
 Description
@@ -132,6 +131,9 @@ TerminateProcess, and CreateFile.
 6. Contact
 ------------------------------
 Q&A: sagravsd@gmail.com
+------------------------------
+7. Show Your Support
+   If you find this useful, please ⭐️ the repository on GitHub and share it with others in the cybersecurity community!
 ------------------------------
 
 # TT
