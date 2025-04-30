@@ -129,8 +129,7 @@ TerminateProcess, and CreateFile.
 - Some features may require admin privileges, especially killing system-level processes. This script has this built in.
 ------------------------------
 6. Contact
-------------------------------
-Q&A: sagravsd@gmail.com
+   Contributions and suggestions welcome!
 ------------------------------
 7. Show Your Support
    If you find this useful, please ⭐️ the repository on GitHub and share it with others in the cybersecurity community!
