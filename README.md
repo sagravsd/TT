@@ -65,6 +65,7 @@ Running the Tool
 ------------------------------
 To run the tool:
 1. Open the .exe file. This is the file referenced in the Compilation Instructions section.
+   
 ------------------------------
 Tool Features:
 ------------------------------
@@ -72,6 +73,7 @@ This tool features:
 1. List all running processes (like tasklist)
 2. Kill a process by PID (like taskkill)
 3. Monitor a folder for file changes (like Sysmon)
+
 ------------------------------
 Available Options (Menu):
 ------------------------------
@@ -82,6 +84,7 @@ When the tool starts, it displays a preset menu where you will be asked to choos
 4. Kill task by name (taskkill /IM)
 5. Kill process tree (/T)
 6. Exit
+
 ------------------------------
 Examples Using the Tool
 ------------------------------
@@ -114,7 +117,7 @@ The defensive strategy combines the C++ script  and the Sysmon configuration fil
    - Collect forensic data before killing processes to ensure evidence for analysis.
 
 ------------------------------
-5. Notes
+Notes
 ------------------------------
 - The following Windows APIs are included in this C++ script:
 
@@ -129,10 +132,13 @@ TerminateProcess, and CreateFile.
 
 - Some features may require admin privileges, especially killing system-level processes. This script has this built in.
 ------------------------------
-6. Contact: Contributions and suggestions welcome!
+Contact: 
 ------------------------------
-7. Show Your Support
-   If you find this useful, please ⭐️ the repository on GitHub and share it with others in the cybersecurity community!
+Contributions and suggestions welcome!
+
 ------------------------------
+Show Your Support
+------------------------------
+If you find this useful, please ⭐️ the repository on GitHub and share it with others in the cybersecurity community!
 
 # TT
